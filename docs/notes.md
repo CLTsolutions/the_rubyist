@@ -33,3 +33,17 @@ _Common to say `Arguments` to distinguish between `Formal` and `Arguments`_
 
 - `return value` is the result of calling a method
 - Every method has a return value even if it's just `nil`
+
+# Colons
+
+_For now, think of them as strings (will study more in Ch 8)_
+
+- Elements starting with colons are symbols.
+
+# Self
+
+- In the topmost level of a class definition body, `self` is the object itself
+
+# Double Colons
+
+- Allows access to constant outside of class definition
