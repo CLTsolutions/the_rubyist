@@ -35,12 +35,13 @@ end
 # print 'and it costs $'
 # puts '%.2f.' % ticket.price
 
-puts "This ticket is for: #{ticket.event}, at #{ticket.venue}." +
-     "The performer is #{ticket.performer}." +
-     "The seat is #{ticket.seat}, " +
+# Less wordy than above using string interpolation and concatenation
+puts "This ticket is for: #{ticket.event}, at #{ticket.venue}." \
+     "The performer is #{ticket.performer}." \
+     "The seat is #{ticket.seat}, " \
      "and it costs $#{'%.2f.' % ticket.price}"
 
-# Is a tick sold or not? Could write below
+# Is a ticket sold or not? Could write below
 # def ticket.availability_status
 #   'sold'
 # end
