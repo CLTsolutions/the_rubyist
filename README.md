@@ -10,5 +10,5 @@ This includes my code along with "The Rubyist" by David A. Black as well as my s
 
 ### Chapter 2
 
-[Objects](/docs/objects.md)
+[Objects](/docs/objects.md)\
 [Methods](/docs/methods.md)
