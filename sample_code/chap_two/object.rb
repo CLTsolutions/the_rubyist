@@ -1,6 +1,5 @@
-obj = Object.new
+obj = Object.new # created obj and want it to talk
 
-# Created object above and want it to talk.
 # Must first tell it how to talk.
 # Do this by defining method (below)
 
