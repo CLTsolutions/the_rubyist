@@ -1,4 +1,14 @@
-ticket = Object.new
+# ticket object should be able to provide data about itself
+
+# When asked it should provide the following info about itself:
+# '01/02/03'
+# 'Town Hall'
+# 'Author's reading'
+# 'Mark Twain'
+# 'Second Balcony, row J, seat 12'
+# 5.50
+
+ticket = Object.new # generic obj
 
 def ticket.date
   '01/02/03'
@@ -46,6 +56,7 @@ puts "This ticket is for: #{ticket.event}, at #{ticket.venue}." \
 #   'sold'
 # end
 
+# asking ticket object if its available
 def ticket.available?
   false
 end

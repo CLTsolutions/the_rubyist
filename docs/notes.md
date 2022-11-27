@@ -2,7 +2,7 @@
 
 ## Colons
 
-_For now, think of them as strings (will study more in Ch 8)_
+_For now, think of them as strings (will study more in Ch 8)._
 
 - Elements starting with colons are symbols.
 
