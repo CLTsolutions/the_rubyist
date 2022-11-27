@@ -11,11 +11,13 @@ _The whole universe of a Ruby program consist of objects and the messages that a
 - The bulk of the design, logic, and action revolves around objects
 - They are often handled via __variables__ that represent them.
 - Every object is an example or __instance__ of a particular class
-- The behavior of individual objects is determined at least to some extent by the __method definitions__ present in the object's class
+- The behavior of individual objects is determined at least to some extent
+  by the __method definitions__ present in the object's class
 
 ### Ruby Objects
 
-Ruby differs from other OOP languages because the real action is with individual objects. Every object has the potential to "learn" behaviors (methods its class didn't teach it).
+Ruby differs from other OOP languages because the real action is with individual objects.
+Every object has the potential to "learn" behaviors (methods its class didn't teach it).
 
 When writing Ruby, main activity is:
 
@@ -26,7 +28,7 @@ When writing Ruby, main activity is:
 ## Messages
 
 - You send objects messages
-  - Most of which correspond to names of methods that you're asking the object to execute
+  - Most correspond to names of methods that you're asking the object to execute
 - An object responds to a message if the object has a method defined whose name corresponds to the message.
 
 ## Methods
@@ -39,17 +41,6 @@ Objects are "born" with certain innate abilities (use code below to see availabl
 ```ruby
 p Object.new.methods.sort
 ```
-
-## Ticket Object Example
-
-- Ticket object should be able to provide data about itself
-- Should field requests for information about the event its for:
-  - When
-  - Where
-  - Name of event
-  - Performer
-  - Which seat
-  - Cost
 
 ## Duping and Freezing
 

@@ -47,8 +47,8 @@ _Often described as labels or names for objects._
 
 ### Reference
 
-Variables in Ruby don't hold object values. They contain references to objects.
-They have a many-to-one relationship with their objects.
+Variables in Ruby don't hold object values.
+They contain references to objects and have a many-to-one relationship with their objects.
 
 ```ruby
 str = 'Hello'
