@@ -56,7 +56,7 @@ end
 
 Duplicates an object
 
-If you dup a frozen object, the clone isn't frozen.
+_If you dup a frozen object, the clone isn't frozen._
 
 ```ruby
 s = 'Original string content!'
@@ -68,7 +68,7 @@ puts s # Original string content!'
 
 Prevents object from undergoing any further change.
 
-If you clone a frozen object, the clone is frozen.
+_If you clone a frozen object, the clone is frozen._
 
 ```ruby
 s = 'Original string content!'

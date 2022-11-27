@@ -36,9 +36,6 @@ def m(*a)
 m(1, 2, 3) # a = [1, 2, 3]
 ```
 
-Optional arguments (_argument sponge_) must occur in the middle.
-Argument sponge cannot be to the left of any default value.
-
 ##### Example
 
 ```ruby
@@ -70,6 +67,9 @@ default_args(4, 5, 6)
 ```
 
 #### Mixing Argument Types
+
+Optional arguments (_argument sponge_) must occur in the middle.
+Argument sponge cannot be to the left of any default value.
 
 ```ruby
 def two_or_more(a, b, *c)
