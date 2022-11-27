@@ -50,3 +50,37 @@ p Object.new.methods.sort
   - Performer
   - Which seat
   - Cost
+
+## Duping and Freezing
+
+Protects objects from being changed inside the methods where they are sent.
+
+```ruby
+def change_string(str)
+  str.replace('New string content!')
+end
+```
+
+### Duping
+
+Duplicates an object
+
+If you dup a frozen object, the clone isn't frozen.
+
+```ruby
+s = 'Original string content!'
+change_string(s.dup)
+puts s # Original string content!'
+```
+
+### Freezing
+
+Prevents object from undergoing any further change.
+
+If you clone a frozen object, the clone is frozen.
+
+```ruby
+s = 'Original string content!'
+s.freeze
+change_string(s) # RuntimeError: can't modify frozen string
+```
