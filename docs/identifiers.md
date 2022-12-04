@@ -18,6 +18,8 @@ _Often described as labels or names for objects._
 
 ### Instance
 
+_See [reference](/docs/instance_variables.md)._
+
 `@first_name`
 
 - Serve the purpose of storing information for individual objects

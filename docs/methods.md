@@ -111,3 +111,7 @@ When you call a method, the call evaluates to something (the method's _return va
 - `return` keyword makes return values explicit
 - `return value` is the result of calling a method
 - Every method has a return value even if it's just `nil`
+
+## Types
+
+_See [Method Types](/docs/method_types.md)._
