@@ -163,7 +163,7 @@ class Ticket
 end
 ```
 
-##### plain `attr`
+#### Plain `attr`
 
 Can achieve `attr_accessor` functionality with plain `attr` method.
 However, it must have a second argument as `true`

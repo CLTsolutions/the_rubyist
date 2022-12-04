@@ -16,7 +16,7 @@ it creates an instance of the class `String`
 
 ## Instantiation
 
-Classes exist for the purpose of launching the object into existence (_Instantiation_)
+Classes exist for the purpose of launching the object into existence (_Instantiation_).
 That is, of having objects created that are instances of the class.
 
 _Reference instance methods [here](/docs/methods.md)._
@@ -43,7 +43,9 @@ end
 
 and
 
-`my_class = Class.new`
+```ruby
+my_class = Class.new
+```
 
 ## Calling Methods
 
@@ -60,7 +62,7 @@ _See also [class methods](/docs/method_types.md#singleton-class-method)
 and [instance methods](/docs/method_types.md#instance)._
 
 A class object has its own methods, state, and identity.
-_It doesn't share these things with instances of itself._
+**It doesn't share these things with instances of itself.**
 
 ## Constants
 

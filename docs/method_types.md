@@ -13,7 +13,7 @@ Defined inside a class and intended for use by all instances of the class
 
 Allow for changing object's state.
 
-Use setter method with an argument and setting the appropriate
+Use setter method with an argument and set the appropriate
 instance variable to that argument.
 
 ```ruby
@@ -24,7 +24,7 @@ end
 
 ### Syntactic Sugar
 
-Syntactic sugar for calling setter methods
+#### For calling setter methods
 
 Instead of `ticket.price=(63.00)` can do `ticket.price = 63.00`.
 
@@ -54,7 +54,9 @@ def ticket.price
 Some operations pertaining to a class can't be performed
 by individual instances of that class (like the `new` method)
 
-`Ticket.new`
+```ruby
+Ticket.new
+```
 
 ## Overriding Methods
 
@@ -73,5 +75,5 @@ class C
   end
 end
 
-C.new.m #Second definition of method m
+C.new.m # Second definition of method m
 ```

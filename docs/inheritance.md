@@ -24,10 +24,11 @@ puts "Mag is published by #{mag.publisher}, and edited by #{mag.editor}."
 
 ## Single Inheritance
 
-Every class can have only one super class.
-It's not restrictive because of [modules](/docs/modules.md).
-
 A convenient way to get two or more classes to share method definitions.
+
+Every class can have only one super class.
+However, this does not mean it's restrictive
+because Ruby provides [modules](/docs/modules.md).
 
 Standard Technique for creating a generic object.
 Object class is at the top of the inheritance chart.

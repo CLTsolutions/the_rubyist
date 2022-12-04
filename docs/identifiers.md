@@ -18,7 +18,7 @@ _Often described as labels or names for objects._
 
 ### Instance
 
-_See [reference](/docs/instance_variables.md)._
+_[Notes](/docs/instance_variables.md)._
 
 `@first_name`
 
@@ -27,6 +27,8 @@ _See [reference](/docs/instance_variables.md)._
 - Always start with `@`
 
 ### Class
+
+_[Notes](/docs/classes.md)_
 
 `@@class_variable`
 
@@ -41,6 +43,8 @@ _See [reference](/docs/instance_variables.md)._
 - Start with `$`
 
 ### Constants
+
+_[Notes](/docs/classes.md#constants)_
 
 `FirstName` or `FIRST_NAME`
 
