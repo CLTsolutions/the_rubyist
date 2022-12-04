@@ -28,4 +28,5 @@ _Objects, methods, and local variables._
 [Objects - Attribute Properties](/docs/objects.md#attributes)
 [Inheritance](/docs/inheritance.md)\
 [Classes](/docs/classes.md)\
-[Constants](/docs/classes.md#constants)
+[Constants](/docs/classes.md#constants)\
+[Modules](/docs/modules.md)
