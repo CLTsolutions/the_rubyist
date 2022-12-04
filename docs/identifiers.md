@@ -18,6 +18,8 @@ _Often described as labels or names for objects._
 
 ### Instance
 
+_[Notes](/docs/instance_variables.md)._
+
 `@first_name`
 
 - Serve the purpose of storing information for individual objects
@@ -25,6 +27,8 @@ _Often described as labels or names for objects._
 - Always start with `@`
 
 ### Class
+
+_[Notes](/docs/classes.md)_
 
 `@@class_variable`
 
@@ -39,6 +43,8 @@ _Often described as labels or names for objects._
 - Start with `$`
 
 ### Constants
+
+_[Notes](/docs/classes.md#constants)_
 
 `FirstName` or `FIRST_NAME`
 

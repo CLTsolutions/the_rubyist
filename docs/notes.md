@@ -25,11 +25,10 @@ _For now, think of them as strings (will study more in Ch 8)._
 - Conditionally sets a value
 - Sets the variable to the specified value
 
-## Classes
+## Syntactic Sugar
 
-- Define clusters of behavior or functionality.
-- Every object is an instance of exactly one class.
-- Example:
-  - `String` is a class.
-  - Every time a string is created, it creates an instance of the class `String`
-- Responsible for launching the object into existence (Instantiation)
+_See [notes](/docs/method_types.md#syntactic-sugar)._
+
+Special rules that let you write your code
+in a way that doesn't correspond to the normal rules
+but that's easier to remember how to do and looks better.
