@@ -22,8 +22,9 @@ _For now, think of them as strings (will study more in Ch 8)._
 
 `||=`
 
-- Conditionally sets a value
-- Sets the variable to the specified value
+- Conditionally sets a variable
+- Sets the variable to the specified value if the variable isn't already set to
+  something other than `nil`.
 
 ## Syntactic Sugar
 
